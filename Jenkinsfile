@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
-        IMAGE_NAME = "naveensmb/node-app"
+        IMAGE_NAME = "naveensmb/simple-jenkins-CI/CD"
     }
 
     stages {
